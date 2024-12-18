@@ -1,0 +1,22 @@
+name: CultivationSystem
+version: '0.0.1'
+main: System.Cultivation.cultivationSystem.CultivationSystem
+api-version: '1.21'
+load: STARTUP
+authors: [ Quang Nguyễn ]
+description: Hệ Thống Tu Tiên | Cultivation System
+website: quangng.io.vn
+commands:
+  register:
+    description: "Đăng ký tài khoản mới."
+    usage: "/register <password> <password again>"
+  login:
+    description: "Đăng nhập vào tài khoản."
+    usage: "/login <password>"
+  hoiphuc: # Tên command
+    description: Hồi phục máu # Mô tả command
+    usage: /hoiphuc # Cách sử dụng command
+    aliases: [ heal, doctor ] # Tên gọi khác của command
+  thongtin:
+    description: "Hiển thị thông tin cấp độ và tiến trình EXP."
+    usage: "/thongtin"

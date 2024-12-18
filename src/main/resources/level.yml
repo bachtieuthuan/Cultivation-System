@@ -1,0 +1,31 @@
+levels:
+  1:
+    name: "Phàm Nhân"
+    exp_needed: 0
+  2:
+    name: "Luyện Khí [Tiền Kỳ]"
+    exp_needed: 100
+  3:
+    name: "Luyện Khí [Trung Kỳ]"
+    exp_needed: 150
+  4:
+    name: "Luyện Khí [Hậu Kỳ]"
+    exp_needed: 200
+  5:
+    name: "Trúc Cơ"
+    exp_needed: 300
+  6:
+    name: "Kim Đan"
+    exp_needed: 400
+  7:
+    name: "Nguyên Anh"
+    exp_needed: 500
+  8:
+    name: "Hóa Thần"
+    exp_needed: 600
+  9:
+    name: "Anh Biến"
+    exp_needed: 700
+  10:
+    name: "Vấn Đỉnh"
+    exp_needed: 800
